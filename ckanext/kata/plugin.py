@@ -13,8 +13,7 @@ import base64
 
 from pylons import config
 from ckan import logic
-from ckan.lib.base import g, c, _
-from ckan.common import OrderedDict
+from ckan.common import OrderedDict, g, c, _
 from ckan.lib.plugins import DefaultDatasetForm
 from ckan.plugins import (implements,
                           toolkit,
