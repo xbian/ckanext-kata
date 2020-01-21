@@ -17,7 +17,7 @@ import httplib
 import copy
 from urlparse import urlparse
 
-import ckan.model as model, g, h, c
+import ckan.model as model
 #from ckan.model import Related, Package, User
 #from ckan.lib.base import g, h, c
 from ckan.logic import get_action, ValidationError
@@ -28,8 +28,8 @@ from pylons.i18n.translation import gettext_noop as N_
 from ckan.common import request
 from webhelpers.html import literal
 from datetime import date
-from ckanext.hierarchy.model import GroupTreeNode, group_dictize
-from ckanext.hierarchy.helpers import get_hierarchy_string_by_id
+#from ckanext.hierarchy.model import GroupTreeNode, group_dictize
+#from ckanext.hierarchy.helpers import get_hierarchy_string_by_id
 
 log = logging.getLogger(__name__)
 
