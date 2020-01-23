@@ -18,6 +18,7 @@ import copy
 from urlparse import urlparse
 
 import ckan.model as model
+# See github issue at: https://github.com/kata-csc/ckanext-oaipmh/issues/8
 # disabled - not relevant for ckanext-oaipmh extension and source of error in ckan 2.8.3
 #from ckan.model import Related, Package, User
 #from ckan.lib.base import g, h, c
