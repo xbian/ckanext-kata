@@ -18,6 +18,7 @@ import copy
 from urlparse import urlparse
 
 import ckan.model as model
+# disabled - not relevant for ckanext-oaipmh extension and source of error in ckan 2.8.3
 #from ckan.model import Related, Package, User
 #from ckan.lib.base import g, h, c
 from ckan.logic import get_action, ValidationError
@@ -28,6 +29,7 @@ from pylons.i18n.translation import gettext_noop as N_
 from ckan.common import request
 from webhelpers.html import literal
 from datetime import date
+# disabled - not relevant for ckanext-oaipmh extension and source of error if ckanext-hierarchy missing
 #from ckanext.hierarchy.model import GroupTreeNode, group_dictize
 #from ckanext.hierarchy.helpers import get_hierarchy_string_by_id
 
